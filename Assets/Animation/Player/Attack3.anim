@@ -22,28 +22,28 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 966168403, guid: 66746780c0e73d343999f92157e0ad5c, type: 3}
-    - time: 0.06666667
+    - time: 0.028571429
       value: {fileID: 642547309, guid: 66746780c0e73d343999f92157e0ad5c, type: 3}
-    - time: 0.13333334
+    - time: 0.057142857
       value: {fileID: 499899052, guid: 66746780c0e73d343999f92157e0ad5c, type: 3}
-    - time: 0.2
+    - time: 0.08571429
       value: {fileID: 1402823498, guid: 66746780c0e73d343999f92157e0ad5c, type: 3}
-    - time: 0.26666668
+    - time: 0.114285715
       value: {fileID: 987696333, guid: 66746780c0e73d343999f92157e0ad5c, type: 3}
-    - time: 0.33333334
+    - time: 0.14285715
       value: {fileID: 1182178179, guid: 66746780c0e73d343999f92157e0ad5c, type: 3}
-    - time: 0.4
+    - time: 0.17142858
       value: {fileID: -1419042908, guid: 66746780c0e73d343999f92157e0ad5c, type: 3}
-    - time: 0.46666667
+    - time: 0.2
       value: {fileID: -1354826656, guid: 66746780c0e73d343999f92157e0ad5c, type: 3}
-    - time: 0.53333336
+    - time: 0.22857143
       value: {fileID: 1030815023, guid: 66746780c0e73d343999f92157e0ad5c, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 15
+  m_SampleRate: 35
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -74,7 +74,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.6
+    m_StopTime: 0.25714287
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -93,4 +93,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.25714287
+    functionName: ResetAttackIndex
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
