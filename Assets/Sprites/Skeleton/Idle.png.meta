@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eec64f110cfe03f468d84c143b5fd79b
+guid: 9041483afcb175740ba93888bed31c93
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mossy - BackgroundDecoration_0
+      name: Idle_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 22
-        width: 1050
-        height: 4030
+        x: 60
+        y: 49
+        width: 45
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebd24331c6511c04fb6714ab539080f1
-      internalID: 230099052
+      spriteID: bdd4cddca7811964abbbf9aac0f2216d
+      internalID: -1973116077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mossy - BackgroundDecoration_1
+      name: Idle_1
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 1704
-        width: 1038
-        height: 2348
+        x: 210
+        y: 49
+        width: 45
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95d4434bd0dc285499050b723b42850d
-      internalID: -2089661682
+      spriteID: 657d5001903b04e44a3ae00ee5cc4209
+      internalID: 1634417885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mossy - BackgroundDecoration_2
+      name: Idle_2
       rect:
         serializedVersion: 2
-        x: 2674
-        y: 2966
-        width: 1088
-        height: 1004
+        x: 360
+        y: 49
+        width: 45
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68c73a4415f34d649b826c070d54a084
-      internalID: 51576562
+      spriteID: 98beebb9ecd52624f8a7e8b9849cddb8
+      internalID: 84717560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mossy - BackgroundDecoration_3
+      name: Idle_3
       rect:
         serializedVersion: 2
-        x: 2382
-        y: 1774
-        width: 1684
-        height: 914
+        x: 510
+        y: 49
+        width: 45
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,50 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac319bade0c063349a3c62fd96bfff17
-      internalID: -59018216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mossy - BackgroundDecoration_4
-      rect:
-        serializedVersion: 2
-        x: 1214
-        y: 840
-        width: 924
-        height: 646
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccc301a48f8544f479831cde09b29bdc
-      internalID: 1867089911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mossy - BackgroundDecoration_5
-      rect:
-        serializedVersion: 2
-        x: 2394
-        y: 8
-        width: 1688
-        height: 1728
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b34f54d68d687646af1cf8bd88e8b2f
-      internalID: 1580489717
+      spriteID: a21f057b1da0a5e4993292e4edaa9ef3
+      internalID: -475053784
       vertices: []
       indices: 
       edges: []
@@ -259,12 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mossy - BackgroundDecoration_0: 230099052
-      Mossy - BackgroundDecoration_1: -2089661682
-      Mossy - BackgroundDecoration_2: 51576562
-      Mossy - BackgroundDecoration_3: -59018216
-      Mossy - BackgroundDecoration_4: 1867089911
-      Mossy - BackgroundDecoration_5: 1580489717
+      Idle_0: -1973116077
+      Idle_1: 1634417885
+      Idle_2: 84717560
+      Idle_3: -475053784
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     public Vector3 moveInput;
     private Animator animator;
-    public DameAttack dameAttack;
+    //public DameAttack dameAttack;
 
     bool CanMove = true;
 

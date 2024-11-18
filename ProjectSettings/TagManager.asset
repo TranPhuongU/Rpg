@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - HitBox
   - Enemy
+  - Skull
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Ground
   - 
   - 
   - 
@@ -43,4 +44,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 2539444441
+    locked: 0
+  - name: FrontGround
+    uniqueID: 4173461753
     locked: 0

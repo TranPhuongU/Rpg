@@ -200,7 +200,6 @@ MonoBehaviour:
   JumpForce: 430
   moveSpeed: 14
   moveInput: {x: 0, y: 0, z: 0}
-  dameAttack: {fileID: 0}
   dashBoost: 40
   dashTime: 0.2
   cooldownTime: 1.5
@@ -217,8 +216,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 002d91866e50951438f16f61f38ef555, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeAttack: 0.1
-  m_timeAttack: 0.1
+  timeAttack: 0
+  m_timeAttack: 0
   originalSpeed: 0
   reduceSpeed: 13
 --- !u!114 &1723518264980128069
@@ -233,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d2278887adf6c94489b90c12516015f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 250
   currentHP: 0
   safeTime: 1
   onDeath:

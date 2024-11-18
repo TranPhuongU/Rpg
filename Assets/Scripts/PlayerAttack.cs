@@ -13,40 +13,59 @@ public class PlayerAttack : MonoBehaviour
     public float originalSpeed;
     bool hasReducedSpeed = false;
     public float reduceSpeed;
+
     void Start()
     {
-        
         animator = GetComponent<Animator>();
         player = FindAnyObjectByType<Player>();
         originalSpeed = player.moveSpeed;
     }
+
     void Update()
     {
         timeAttack -= Time.deltaTime;
-        if (Input.GetMouseButtonDown(0) && timeAttack <= 0 ) // Ấn chuột trái
+
+        if (Input.GetMouseButtonDown(0) && timeAttack <= 0) // Ấn chuột trái
         {
-            
-            attackIndex++;
+            // Kiểm tra và đặt `attackIndex` bắt đầu từ `1` nếu hiện tại là `0`
+            if (attackIndex == 0)
+            {
+                attackIndex = 1;
+            }
+            else
+            {
+                attackIndex++;
+            }
+
+            if (attackIndex > maxAttackIndex)
+            {
+                attackIndex = 1; // Reset về 1 nếu vượt quá giới hạn
+            }
+
+            timeAttack = m_timeAttack;
+
+            // Thiết lập giá trị `attackIndex` cho Animator
+            animator.SetInteger("attackIndex", attackIndex);
+
+            // Giảm tốc độ nếu chưa giảm
             if (!hasReducedSpeed)
             {
                 player.moveSpeed -= reduceSpeed;
                 hasReducedSpeed = true;
             }
-            if (attackIndex > maxAttackIndex)
-            {
-                attackIndex = 1;
-            }
-            timeAttack = m_timeAttack;
-            animator.SetInteger("attackIndex", attackIndex);  
         }
+
         if (Input.GetMouseButtonUp(0))
         {
             player.moveSpeed = originalSpeed; // Khôi phục tốc độ ban đầu
             hasReducedSpeed = false; // Cho phép giảm tốc độ lần tiếp theo khi ấn chuột
         }
     }
+
     public void ResetAttackIndex()
     {
+        // Đặt lại `attackIndex` về 0 thông qua Animation Event
         animator.SetInteger("attackIndex", 0);
+        attackIndex = 0; // Đồng bộ giá trị `attackIndex` của script
     }
 }

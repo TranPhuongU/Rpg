@@ -1,5 +1,6 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class AttacksArea : MonoBehaviour
@@ -31,8 +32,26 @@ public class AttacksArea : MonoBehaviour
         {
             Debug.Log("danhtrungquai");
             int damage = Random.Range(minDame, maxDame);
-            collision.GetComponent<Enemy>().TakeDamage(damage);
-           
+            collision.GetComponent<TakeHitEnemy>().TakeHit(damage);
+
         }
+        if (collision.CompareTag("Skull") && SwordDame)
+        {
+            Debug.Log("danhtrungSkull");
+            int damage = Random.Range(minDame, maxDame);
+            collision.GetComponent<TakeHitEnemy>().TakeHit(damage);
+            
+
+        }
+     
     }
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    var enemy = collision..GetComponent<Skull>();
+    //    if (enemy)
+    //    {
+    //        enemy.TakeHit(1);
+    //    }
+    //    Destroy(gameObject);
+    //}
 }

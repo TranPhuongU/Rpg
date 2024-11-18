@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eec64f110cfe03f468d84c143b5fd79b
+guid: b4743159640747647a63af54c5eaa8a8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mossy - BackgroundDecoration_0
+      name: Walk_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 22
-        width: 1050
-        height: 4030
+        x: 60
+        y: 49
+        width: 45
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebd24331c6511c04fb6714ab539080f1
-      internalID: 230099052
+      spriteID: 50aa20772aad0684798a075c16518dab
+      internalID: 571704753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mossy - BackgroundDecoration_1
+      name: Walk_1
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 1704
-        width: 1038
-        height: 2348
+        x: 210
+        y: 49
+        width: 45
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95d4434bd0dc285499050b723b42850d
-      internalID: -2089661682
+      spriteID: 7c7252c7c7741454196cb0ced431a109
+      internalID: -240526097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mossy - BackgroundDecoration_2
+      name: Walk_2
       rect:
         serializedVersion: 2
-        x: 2674
-        y: 2966
-        width: 1088
-        height: 1004
+        x: 360
+        y: 49
+        width: 45
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68c73a4415f34d649b826c070d54a084
-      internalID: 51576562
+      spriteID: 77b67ccdfac5fbf4297c950c63c33558
+      internalID: -19933768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mossy - BackgroundDecoration_3
+      name: Walk_3
       rect:
         serializedVersion: 2
-        x: 2382
-        y: 1774
-        width: 1684
-        height: 914
+        x: 510
+        y: 49
+        width: 45
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,50 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac319bade0c063349a3c62fd96bfff17
-      internalID: -59018216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mossy - BackgroundDecoration_4
-      rect:
-        serializedVersion: 2
-        x: 1214
-        y: 840
-        width: 924
-        height: 646
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccc301a48f8544f479831cde09b29bdc
-      internalID: 1867089911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mossy - BackgroundDecoration_5
-      rect:
-        serializedVersion: 2
-        x: 2394
-        y: 8
-        width: 1688
-        height: 1728
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b34f54d68d687646af1cf8bd88e8b2f
-      internalID: 1580489717
+      spriteID: 2ce82e3afcc3b3b4f83529023f83b8fe
+      internalID: 992012149
       vertices: []
       indices: 
       edges: []
@@ -259,12 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mossy - BackgroundDecoration_0: 230099052
-      Mossy - BackgroundDecoration_1: -2089661682
-      Mossy - BackgroundDecoration_2: 51576562
-      Mossy - BackgroundDecoration_3: -59018216
-      Mossy - BackgroundDecoration_4: 1867089911
-      Mossy - BackgroundDecoration_5: 1580489717
+      Walk_0: 571704753
+      Walk_1: -240526097
+      Walk_2: -19933768
+      Walk_3: 992012149
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
